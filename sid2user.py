@@ -92,7 +92,7 @@ if __name__ == '__main__':
     user_type, user_name = get_user_name(sys.argv[1])
 
     if user_name is None:
-        print("User doesn't exist", file=sys.stderr)
+        print("User doesn't exists", file=sys.stderr)
         sys.exit()
 
     print("[*] User name:", user_name)
